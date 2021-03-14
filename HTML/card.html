@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="../CSS/card.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0"></script>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/user.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/checkout.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="../CSS/styleHompage.css">
+    <!-- link footer -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <nav class="navbar navbar-expand-sm navbar-fixed-top " role="navigation">
+                <div class="navbar-header col-sm-2">
+                    <img src="">
+                    <a class="navbar-brand" href="">RESTAURANT</a>
+                </div>
+                <div class="container">
+                    <div id="navbarCollapse" class="navbar-collapse collapse topNarbar" aria-expanded="false">
+                        <ul class="nav navbar-nav col-sm-4">
+                            <li class="active"><a href="../HTML/pageHome.html">Home</a></li>
+                            <li><a href="#aboutus">About us</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<span
+                                        class="product"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Sea Food</a></li>
+                                    <li><a href="#">Jungle Food</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right col-sm-4">
+                            <li id="account" class="is-logged-in">
+                                <a href="" data-toggle="modal" data-target="#exampleModal">
+                                    <span class="glyphicon glyphicon-user"></span>Account
+                                </a>
+                            </li>
+                            <li class="dropdown is-not-logged-in">
+                                <a id="userAccount" href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                    id="logged-in-username">
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li aria-labelledby="logged-in-username">
+                                            <a class="dropdown-item" onclick="logOut()" href="#">Log out</a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                           
+                            <li onclick="addProductCard()"><a><span class="glyphicon glyphicon-shopping-cart"></span>
+                                    </span>Cart
+                                    <span id="count11"></span>
+                                </a>
+                            </li>
+                            <script src="../JS/card.js"></script>
+                        </ul>
+                        <form class="navbar-form navbar-right col-sm-4" action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search" name="search" id="search"
+                                    style="width:25vh">
+                            </div>
+                            <button type="submit" class="btn btn-default" id="submit"
+                                onclick="searchProduct()" style="width:10vh">Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body bodySign">
+                    <div class="modalSign">
+                        <div class="card">
+                            <div class="card-title">
+                                <h3><i class="fa fa-user-circle-o" aria-hidden="true"></i> User <span
+                                        id="action_title">Login</span></h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-body-top">
+                                    <button id="login" class="btn" name="login" onclick="login1()">login</button>
+                                    <button id="register" class="btn" name="register"
+                                        onclick="register1()">register</button>
+                                    <div id="pointer-btn"></div>
+                                </div>
+                                <div class="card-body-login">
+                                    <form id="login-form">
+                                        <input class="input-form" type="email" id="named"
+                                            placeholder="Enter your email"><br><br>
+                                        <input class="input-form" type="password" id="password"
+                                            placeholder="Enter your password">
+                                        <button class="btn btn-secondary" type="button" id="btnPassword"
+                                            style="position: absolute; right:0px;">
+                                            <span class="fas fa-eye"></span>
+                                        </button><br><br><br>
+                                        <input class="input-checkbox" type="checkbox" name="" id="checkbox"> <span
+                                            style="color:white"> Remember Password</span><br><br>
+                                        <input class="submit-form" type="button" value="Login" required
+                                            onclick="signin()">
+                                    </form>
+                                    <form id="register-form">
+                                        <input class="input-form" type="name" id="fullname"
+                                            placeholder="Enter your full name"><br><br>
+                                        <input class="input-form" type="email" id="email"
+                                            placeholder="Enter your email"><br><br>
+                                        <input class="input-form" type="password" id="passworded"
+                                            placeholder="Enter your password">
+                                        <button class="btn btn-secondary" type="button" id="btnPasswordd"
+                                            style="position: absolute; right:0px;">
+                                            <span class="fas fa-eye"></span>
+                                        </button>
+
+                                        <br><br>
+                                        <input class="input-form" type="password" id="passwordedd"
+                                            placeholder="Enter confirm your password">
+                                        <button class="btn btn-secondary" type="button" id="bPassworddd"
+                                            style="position: absolute; right:0px;">
+                                            <span class="fas fa-eye"></span>
+                                        </button>
+                                        <br><br>
+                                        <input class="input-form" type="number" id="phoned"
+                                            placeholder="Enter your phone" required><br><br>
+                                        <input class="input-checkbox" type="checkbox" name="" id="checkbox2" required>
+                                        <span style="color:white"> I agree tot the Restaurant app</span> <br><br>
+                                        <input class="submit-form" type="button" value="Register" required
+                                            onclick="signup()">
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script src="../JS/user.js"></script>
+            </div>
+        </div>
+    </div>
+
+    <body id="check">
+        <div class="row123">
+            <div class="col-75">
+                <div class="container123">
+                    <form id="validate" action="">
+                        <div class="row123">
+                            <div class="col-50">
+                                <h3>Địa chỉ thanh toán</h3>
+                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                <input type="text" id="fname" name="fullname" placeholder="Soeng.Souy" required>
+                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                <input type="text"  name="email" id="emailUser" placeholder="soeng.souy@gmail.com" required>
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                <input type="text" id="adr" name="address" placeholder="110 W. 15th Phnom Penh"
+                                    required>
+                                <label for="city"><i class="fa fa-institution"></i> City</label>
+                                <input type="text" id="city" name="city" placeholder="Phnom Penh" required>
+                                <label for="city"><i class="fa fa-phone"></i> Phone</label>
+                                <input type="text" id="foned" name="phone" placeholder="(+84)-00-1411-111" required>
+                            </div>
+
+                            <div class="col-50">
+                                <h3>Thanh Toán</h3>
+                                <label for="fname">Accepted Cards</label>
+                                <div class="icon-container">
+                                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                </div>
+
+                                <label for="cname">Name on Card</label>
+                                <input type="text" id="cname" name="cardname" placeholder="Soeng Souy" required>
+                                <label for="ccnum">Credit card number</label>
+                                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"
+                                    required>
+                                <label for="expmonth">Exp Month</label>
+                                <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
+                                <label for="expyear">Exp Year</label>
+                                <input type="text" id="expyear" name="expyear" placeholder="2021" required>
+
+                            </div>
+                        </div>
+                        <label>
+                            <input type="checkbox" checked="checked" name="sameadr"> Xác nhận địa chỉ giao hàng giống
+                            như trên
+                        </label>
+                        <input type="submit" value="Continue to checkout" class="btn123" onclick="order();">
+                    </form>
+                </div>
+            </div>
+            <div class="col-25"">
+                <div class="container123">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Cart <span class="price " style="color:black"></span></th>
+                                <th scope="col">Quty</th>
+                                <th scope="col" style="text-align: center;">Img</th>
+                                <th scope="col" style="text-align: right;"><i class="fa fa-shopping-cart"></i> <b id="count11"></b></th>
+
+                            </tr>
+                        </thead>
+                        <tbody  id="carts">
+                        
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+
+
+    <!-- script validate js -->
+    <script>
+        $('#validate').validate({
+            roles: {
+                fullname: {
+                    required: true,
+                },
+                email: {
+                    required: true,
+                },
+                address: {
+                    required: true,
+                },
+                city: {
+                    required: true,
+                },
+                cardname: {
+                    required: true,
+                },
+                cardnumber: {
+                    required: true,
+                },
+                expmonth: {
+                    required: true,
+                },
+                expyear: {
+                    required: true,
+                },
+                phone: {
+                    required: true,
+                },
+
+            },
+            messages: {
+                fullname: "Please input full name*",
+                email: "Please input email*",
+                city: "Please input city*",
+                address: "Please input address*",
+                state: "Please input state*",
+                zip: "Please input address*",
+                cardname: "Please input card name*",
+                cardnumber: "Please input card number*",
+                expmonth: "Please input exp month*",
+                expyear: "Please input exp year*",
+                cvv: "Please input cvv*",
+            },
+        });
+    </script>
+    
+
+
+
+
+
+    <script src="../JS/card.js"></script>
+</body>
+
+</html>

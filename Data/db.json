@@ -1,0 +1,244 @@
+{
+  "products": [
+    {
+      "id": "sp1",
+      "name": "Gà Chọi 1/2 ",
+      "img": "../imgs/gachoi.jpg",
+      "note": "Size :2kg - 4kg/con (Bán nhiều nhất từ 2kg - 3kg/nữa con) Gà chọi xào sả ớt là một món ăn ngon, lạ miệng, khiến ai cũng thích mê, đặc biệt là trong những ngày thời tiết đang chuyển mùa",
+      "price": 400000
+    },
+    {
+      "id": "sp3",
+      "name": "Gà Chọi 1/2 ",
+      "img": "../imgs/gachoi.jpg",
+      "note": "Size :2kg - 4kg/con (Bán nhiều nhất từ 2kg - 3kg/nữa con) Gà chọi xào sả ớt là một món ăn ngon, lạ miệng, khiến ai cũng thích mê, đặc biệt là trong những ngày thời tiết đang chuyển mùa",
+      "price": 400000
+    },
+    {
+      "id": "sp4",
+      "name": "Hải Sản Hỗn Hợp",
+      "img": "../imgs/honhop.jpg",
+      "note": "Size :2kg - 4kg/dĩa ",
+      "price": 200000
+    },
+    {
+      "id": "sp5",
+      "name": "Heo Nướng Ống Tre",
+      "img": "../imgs/lonnuongongtre.jpg",
+      "note": "Size :2kg - 4kg thịt /dĩa Thịt lợn nướng ống tre ẩm thực nổi tiếng của đồng bào Tây Nguyên.",
+      "price": 122000
+    },
+    {
+      "id": "sp6",
+      "name": "Mực Sốt Xả Ớt",
+      "img": "../imgs/múcot.jpg",
+      "note": "Size :2kg - 4kg thịt /dĩa Mực xào sả ớt là món ngon được nhiều người ưa chuộng, giàu dinh dưỡng và phù hợp với mọi lứa tuổi.",
+      "price": 34000
+    },
+    {
+      "id": "sp7",
+      "name": "Tôm Hùm",
+      "img": "../imgs/tomhumhaisan.jpg",
+      "note": "Size :2kg - 4kg /con Món tôm hùm sốt chua ngọt hấp dẫn vị giác của thực khách cùng với hương vị thơm ngon, hấp dẫn. Tôm hùm sốt chua ngọt đặc biệt có lợi cho sức khỏe nên được nhiều người yêu thích và lựa chọn.",
+      "price": 150000
+    },
+    {
+      "id": "sp8",
+      "name": "Cá Mú Hấp",
+      "img": "../imgs/camuhap.jpg",
+      "note": "Size :8kg - 10kg /con Tất cả các món hấp luôn giữ được độ tươi ngon, chất dinh dưỡng và hương vị của món ăn nhất là các món cá hấp ",
+      "price": 9000000
+    },
+    {
+      "id": "sp9",
+      "name": "Gà Hấp Xôi",
+      "img": "../imgs/gahapxoi.jpg",
+      "note": "Size :2kg - 4kg /dĩa ",
+      "price": 100000
+    },
+    {
+      "id": "sp10",
+      "name": "Gà Luộc Nguyên Con",
+      "img": "../imgs/galuoc.png",
+      "note": "Size :2kg - 4kg /dĩa ",
+      "price": 100000
+    },
+    {
+      "id": "sp11",
+      "name": "Heo Rừng",
+      "img": "../imgs/lonrung.jpg",
+      "note": "Size :4kg - 8kg /dĩa Thịt lợn rừng có vị giòn giòn, thơm ngon nên nó được chế biến thành nhiều món ăn ngon như thịt lợn rừng hấp, thịt lợn rừng nấu giả cầy, thịt lợn rừng nướng muối ớt",
+      "price": 350000
+    },
+    {
+      "id": "SP11",
+      "name": "ád",
+      "img": "data:image/jpeg;base64,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",
+      "price": "13123"
+    },
+    {
+      "id": "SP12",
+      "name": "quande",
+      "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fbf74cde-8759-46d4-9994-32f89d6806ed/d27vjwx-b1b9b682-491d-47a1-b5d5-765191023bef.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZmJmNzRjZGUtODc1OS00NmQ0LTk5OTQtMzJmODlkNjgwNmVkXC9kMjd2and4LWIxYjliNjgyLTQ5MWQtNDdhMS1iNWQ1LTc2NTE5MTAyM2JlZi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ozc_GL2E18hLlMdjVG39dH1O_n5Dchy7fwir-Npvi50",
+      "price": "123123"
+    }
+  ],
+  "discounts": [
+    {
+      "id": "sp1",
+      "name": "Tôm Nướng",
+      "img": "../imgs/tomnuong.jpg",
+      "note": "Size :0.5kg - 1kg /con ",
+      "old_price": 100000,
+      "price": 80000
+    },
+    {
+      "id": "sp2",
+      "name": "Gà Nhà Nguyên co",
+      "img": "../imgs/ganuong.jpg",
+      "note": "Size :1.5kg - 2kg /con ",
+      "old_price": 200000,
+      "price": 150000
+    },
+    {
+      "id": "sp3",
+      "name": "Rắn xào xả ớt",
+      "img": "../imgs/ranxao.jpg",
+      "note": "Size :2kg - 2.5kg /dĩa ",
+      "old_price": 120000,
+      "price": 100000
+    },
+    {
+      "id": "sp4",
+      "name": "Ba Ba Xầm Chuối",
+      "img": "../imgs/baba.jpg",
+      "note": "Size :0.5kg - 1kg /nồi ",
+      "old_price": 122000,
+      "price": 145000
+    },
+    {
+      "id": "sp5",
+      "name": "Heo Nướng Ống Tre",
+      "img": "../imgs/lonnuongongtre.jpg",
+      "note": "Size :2kg - 4kg thịt /dĩa ",
+      "old_price": 122000,
+      "price": 99000
+    },
+    {
+      "id": "sp6",
+      "name": "Mực Sốt Xả Ớt",
+      "img": "../imgs/múcot.jpg",
+      "note": "Size :2kg - 4kg thịt /dĩa ",
+      "old_price": 34000,
+      "price": 30000
+    },
+    {
+      "id": "sp7",
+      "name": "Tôm Hùm",
+      "img": "../imgs/tomhumhaisan.jpg",
+      "note": "Size :2kg - 4kg /con ",
+      "old_price": 150000,
+      "price": 100000
+    },
+    {
+      "id": "sp8",
+      "name": "Cá Mú Hấp",
+      "img": "../imgs/camuhap.jpg",
+      "note": "Size :8kg - 10kg /con ",
+      "old_price": 9000000,
+      "price": 7500000
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room1",
+      "address": "Tầng 1",
+      "img": "../imgsRoom/room1.jpg",
+      "status": "Rỗng còn phòng Tọa lạc tại tầng 1 của khách sạn, gần ngay Cafe Gallery và khu vực hành lang, Lounge Bar là nơi thích hợp cùng một lúc tổ chức hội họp và ăn uống.",
+      "price": 1400000
+    },
+    {
+      "id": "room1",
+      "address": "Tầng 2 ",
+      "img": "../imgsRoom/room2.jpg",
+      "status": "Còn phòng Rỗng còn phòng Tọa lạc tại tầng 1 của khách sạn, gần ngay Cafe Gallery và khu vực hành lang, Lounge Bar là nơi thích hợp cùng một lúc tổ chức hội họp và ăn uống",
+      "price": 200000
+    },
+    {
+      "id": "room1",
+      "address": "Tầng 2 ",
+      "img": "../imgsRoom/room4.jpg",
+      "status": "còn phòng Rỗng còn phòng Tọa lạc tại tầng 1 của khách sạn, gần ngay Cafe Gallery và khu vực hành lang, Lounge Bar là nơi thích hợp cùng một lúc tổ chức hội họp và ăn uống",
+      "price": 350000
+    },
+    {
+      "id": "room1",
+      "address": "Tầng 2 ",
+      "img": "../imgsRoom/room4.jpg",
+      "status": "còn phòng Rỗng còn phòng Tọa lạc tại tầng 1 của khách sạn, gần ngay Cafe Gallery và khu vực hành lang, Lounge Bar là nơi thích hợp cùng một lúc tổ chức hội họp và ăn uống",
+      "price": 150000
+    },
+    {
+      "id": "room1",
+      "address": "Tầng 2 ",
+      "img": "../imgsRoom/room5.jpg",
+      "status": "còn phòng Rỗng còn phòng Tọa lạc tại tầng 1 của khách sạn, gần ngay Cafe Gallery và khu vực hành lang, Lounge Bar là nơi thích hợp cùng một lúc tổ chức hội họp và ăn uống",
+      "price": 99000
+    },
+    {
+      "id": "room1",
+      "address": "Tầng 2 ",
+      "img": "../imgsRoom/room6.jpg",
+      "status": "còn phòng Rỗng còn phòng Tọa lạc tại tầng 1 của khách sạn, gần ngay Cafe Gallery và khu vực hành lang, Lounge Bar là nơi thích hợp cùng một lúc tổ chức hội họp và ăn uống",
+      "price": 30000
+    },
+    {
+      "id": "room1",
+      "address": "Tầng 2 ",
+      "img": "../imgsRoom/room1.jpg",
+      "status": "còn phòng Rỗng còn phòng Tọa lạc tại tầng 1 của khách sạn, gần ngay Cafe Gallery và khu vực hành lang, Lounge Bar là nơi thích hợp cùng một lúc tổ chức hội họp và ăn uống",
+      "price": 100000
+    },
+    {
+      "id": "room1",
+      "address": "Tầng 2 ",
+      "img": "../imgsRoom/room1.jpg",
+      "status": "còn phòng Rỗng còn phòng Tọa lạc tại tầng 1 của khách sạn, gần ngay Cafe Gallery và khu vực hành lang, Lounge Bar là nơi thích hợp cùng một lúc tổ chức hội họp và ăn uống    ",
+      "price": 7500000
+    }
+  ],
+  "users": [
+    {
+      "id": "User1",
+      "name": "HoangTrungQuan",
+      "phone": "035573986",
+      "email": "quanhuhoq111@gmail.com",
+      "password": "123456789",
+      "role": "admin"
+    },
+    {
+      "id": "User2",
+      "name": "NguyenThiDiem",
+      "phone": "035573986",
+      "email": "diemhuhoq111@gmail.com",
+      "password": "123136789",
+      "role": "user"
+    },
+    {
+      "id": "User3",
+      "name": "LeNgocVi",
+      "phone": "035573986",
+      "email": "vihuhoq111@gmail.com",
+      "password": "123136789",
+      "role": "user"
+    },
+    {
+      "id": "User4",
+      "name": "ThaiTranHungVuong",
+      "phone": "035573986",
+      "email": "vuonghuhoq111@gmail.com",
+      "password": "123136789",
+      "role": "user"
+    }
+  ]
+}

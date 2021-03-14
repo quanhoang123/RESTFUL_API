@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <title>Email</title>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+  <div>
+    Chủ đề
+    <input type="text" id="chude" size="30">
+    Nội dung
+    <input type="text" id="noidung" size="30">
+    <button onclick="sendd()">Gửi</button>
+  </div>
+</body>
+<script>
+  function sendd() {
+    var title = document.getElementById('chude').value;
+    var content = document.getElementById('noidung').value;
+    Email.send({
+      SecureToken: "921b4442-e2ed-4ec3-94bd-d2ee608d7801",
+      From: 'trunghoangquan@gmail.com',
+      To: "huy.nguyen22@student.passerellesnumeriques.org",
+      Subject: title,
+      Body: content
+
+    }).then(
+      message => alert("Gửi mail thành công")
+    );
+  }
+
+</script>
+
+</html>
